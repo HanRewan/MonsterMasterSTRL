@@ -87,7 +87,8 @@ class Monster:
 StatPriorBook = {
     "Mage": StatBoard(1, 4, 5, 6, 2, 3),
     "Warior": StatBoard(6, 4, 5, 1, 2, 3),
-    "Rogue": StatBoard(2, 6, 5, 4, 3, 1)
+    "Rogue": StatBoard(2, 6, 5, 4, 3, 1),
+    "Cleric": StatBoard(1, 4, 5, 2, 6, 3),
 }
 
 MonsterTypes = StatPriorBook.keys()
